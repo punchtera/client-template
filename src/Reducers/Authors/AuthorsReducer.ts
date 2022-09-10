@@ -8,7 +8,7 @@ import { IAuthorsState } from "./IAuthorsState";
  * @returns {IAuthorsState} authors state
  */
 export const initialState: IAuthorsState = {
-    repoOwner: ""
+    repoOwner: "punchtera"
 };
 
 export default function authorsReducer(state: IAuthorsState = initialState, action: AuthorsActionTypes): IAuthorsState {

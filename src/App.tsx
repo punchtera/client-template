@@ -1,8 +1,8 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AuthorsContainer from './Components/AuthorsContainer';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,11 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React <AuthorsContainer />
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
