@@ -1,3 +1,3 @@
-import authorsReducer from "./AuthorsReducer";
+import AuthorsReducer from "./AuthorsReducer";
 
-export default authorsReducer;
+export default AuthorsReducer;
