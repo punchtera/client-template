@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import AuthorsContainer from './Components/AuthorsContainer';
+import logo from "./logo.svg";
+import "./App.css";
+import AuthorsContainer from "./Components/AuthorsContainer";
 
 export default function App() {
   return (
@@ -10,16 +10,10 @@ export default function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React <AuthorsContainer />
         </a>
       </header>
     </div>
   );
 }
-

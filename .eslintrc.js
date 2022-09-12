@@ -40,6 +40,7 @@ module.exports = {
     "valid-jsdoc": "warn",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/ban-types": "warn",
+    "react/react-in-jsx-scope": "off",
   },
   settings: {
     react: {

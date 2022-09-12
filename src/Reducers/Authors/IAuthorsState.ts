@@ -3,9 +3,9 @@
  * @interface
  */
 export interface IAuthorsState {
-    /**
-     *  name of the owner of the default repo.
-     * @property
-     */
-    repoOwner: string;
+  /**
+   *  name of the owner of the default repo.
+   * @property
+   */
+  repoOwner: string;
 }
