@@ -25,19 +25,6 @@ module.exports = {
       },
     ],
     "prettier/prettier": "warn",
-    "require-jsdoc": [
-      "warn",
-      {
-        require: {
-          FunctionDeclaration: true,
-          MethodDefinition: true,
-          ClassDeclaration: true,
-          ArrowFunctionExpression: true,
-          FunctionExpression: true,
-        },
-      },
-    ],
-    "valid-jsdoc": "warn",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/ban-types": "warn",
     "react/react-in-jsx-scope": "off",
