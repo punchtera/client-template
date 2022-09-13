@@ -1,15 +1,14 @@
-// todo refactor this to initiate the store correctly
-import { createStore, combineReducers } from "redux";
+import { configureStore, combineReducers } from "@reduxjs/toolkit";
 
 import authors from "../Reducers/Authors";
 import { IAppState } from "../Reducers/IAppState";
 
-export function configureStore() {
+export function createStore() {
   const rootReducer = combineReducers<IAppState>({
     authors,
   });
 
-  const store = createStore(rootReducer);
+  const store = configureStore({ reducer: rootReducer });
 
   return store;
 }
