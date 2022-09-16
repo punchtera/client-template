@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
+import { ReduxRouter } from "@lagunovsky/redux-react-router";
 
 import "./index.css";
-import App from "./App";
+import Router from "./Router";
+import { browserHistory } from "./Reducers/Router/History";
 import { createStore } from "./Store";
 import reportWebVitals from "./reportWebVitals";
 
@@ -14,7 +16,9 @@ const store = createStore();
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ReduxRouter history={browserHistory}>
+        <Router />
+      </ReduxRouter>
     </Provider>
   </React.StrictMode>
 );

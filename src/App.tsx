@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import AuthorsContainer from "./Components/AuthorsContainer";
 
 export default function App() {
   return (
@@ -9,7 +8,7 @@ export default function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React <AuthorsContainer />
+          Learn React
         </a>
       </header>
     </div>
