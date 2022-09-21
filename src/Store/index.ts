@@ -1,4 +1,5 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
+import logger from "redux-logger";
 
 import authors from "../Reducers/Authors";
 import createRouter from "../Reducers/Router";
@@ -12,5 +13,5 @@ export function createStore() {
     router,
   });
 
-  return configureStore({ reducer: rootReducer });
+  return configureStore({ reducer: rootReducer, middleware: [logger] });
 }
