@@ -1,0 +1,1 @@
+export const TEXT_HELLO_CHANGE = "TEXT_HELLO_CHANGE";
