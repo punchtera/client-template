@@ -12,7 +12,7 @@ export const initialState: ITextState = {
 
 export default function textReducer(state: ITextState = initialState, action: TextActions): ITextState {
   switch (action.type) {
-    case TextActionTypes.TEXT_HELLO_CHANGE: {
+    case TextActionTypes.HELLO_CHANGE: {
       return { ...state, hello: "world" };
     }
     default: {

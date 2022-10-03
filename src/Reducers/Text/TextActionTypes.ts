@@ -1,1 +1,1 @@
-export const TEXT_HELLO_CHANGE = "TEXT_HELLO_CHANGE";
+export const HELLO_CHANGE = "HELLO_CHANGE";

@@ -1,10 +1,10 @@
-import { TEXT_HELLO_CHANGE } from "./TextActionTypes";
+import { HELLO_CHANGE } from "./TextActionTypes";
 
 /**
- * Action to get repo owner.
+ * Action to change hello.
  */
 export interface IChangeHello {
-  type: typeof TEXT_HELLO_CHANGE;
+  type: typeof HELLO_CHANGE;
 }
 
 export type TextActions = IChangeHello;
