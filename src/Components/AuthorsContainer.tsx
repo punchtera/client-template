@@ -16,7 +16,10 @@ function AuthorsContainer(props: IAuthorsContainerProps) {
 
   return (
     <div>
-      <span>{repoOwner}</span>
+      <div>
+        <span>{repoOwner}</span>
+      </div>
+      <br />
       <button onClick={callbacks.onGetRepoOwnerClick}>Get Repo Owner!</button>
     </div>
   );

@@ -3,7 +3,7 @@ import { delay, put, takeEvery } from "redux-saga/effects";
 import { getRepoOwnerDataSuccess, getRepoOwnerDataFail } from "./AuthorsAction";
 import * as ActionTypes from "./AuthorsActionTypes";
 
-const DEFAULT_CONFIG_DELAY = 400;
+const DEFAULT_CONFIG_DELAY = 2000;
 /**
  * The function to load activity common data.
  * @param {IGetCommonFormData} action The action.
